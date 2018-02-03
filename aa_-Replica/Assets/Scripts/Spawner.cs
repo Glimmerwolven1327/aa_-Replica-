@@ -12,6 +12,14 @@ public class Spawner : MonoBehaviour {
         {
             SpawnPin();
         }
+        if (Input.GetButtonDown("Fire1"))
+        {
+            SpawnPin();
+        }
+        if (Input.GetButtonDown("Button 0"))
+        {
+            SpawnPin();
+        }
     }
 
     void SpawnPin()
